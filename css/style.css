@@ -10,7 +10,8 @@ header .row {
     padding: 15px;
 }
 
-.jumbo {
+.jumbo,
+.about {
     background-color: var(--aqua);
 }
 
