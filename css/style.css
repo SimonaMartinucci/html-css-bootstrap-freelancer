@@ -1,0 +1,21 @@
+:root {
+    --blue: #2c3e50;
+    --light-blue: #3a546d;
+    --aqua: #1abc9c;
+}
+
+header .row {
+    height: 100px;
+    background-color: var(--blue);
+    padding: 15px;
+}
+
+/* DEBUG */
+header .col-6 {
+    background-color: brown;
+    border: 1px solid white
+}
+
+.jumbo {
+    
+}
