@@ -15,7 +15,7 @@ header .row {
 }
 
 /* DEBUG */
-[class*="col-"] {
+[class*="col"] {
     background-color: brown;
 }
 
@@ -27,6 +27,11 @@ header .col-6 {
     height: 150px;
 }
 
-.jumbo [class*="col-"] {
+[class*="col"] {
     margin-bottom: 15px;
+}
+
+.portfolio .col-12 {
+    height: 200px;
+    border: 1px solid blue;
 }
