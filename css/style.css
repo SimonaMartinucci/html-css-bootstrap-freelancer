@@ -39,3 +39,12 @@ header {
     content: "\2015";
     font-size: 40px;
 }
+
+/* sezione portfolio */
+.portfolio {
+    color: var(--blue);
+}
+
+.portfolio img {
+    max-width: 100%;
+}
