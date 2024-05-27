@@ -17,3 +17,25 @@ header {
 .navbar-expand-md .navbar-collapse {
     flex-grow: 0;
 }
+
+
+/* MAIN */
+
+/* sezione jumbo */
+.jumbo {
+    background-color: var(--aqua);
+}
+
+.jumbo img {
+    max-width: 250px;
+}
+
+.star:after {
+    content: "\2015";
+    font-size: 40px;
+}
+
+.star:before {
+    content: "\2015";
+    font-size: 40px;
+}
