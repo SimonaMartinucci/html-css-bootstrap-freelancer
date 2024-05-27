@@ -1,46 +1,19 @@
+* {
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+
 :root {
     --blue: #2c3e50;
     --light-blue: #3a546d;
     --aqua: #1abc9c;
 }
 
-header .row {
-    height: 100px;
-    background-color: var(--blue);
-    padding: 15px;
-}
-
-.jumbo,
-.about {
-    background-color: var(--aqua);
-}
-
-.upper {
-    background-color: var(--light-blue);
-}
-
-.lower {
+/* HEADER */
+header {
     background-color: var(--blue);
 }
 
-/* DEBUG */
-[class*="col"] {
-    background-color: brown;
-}
-
-header .col-6 {
-    border: 1px solid white
-}
-
-.jumbo .col-4.offset-4:first-child {
-    height: 150px;
-}
-
-[class*="col"] {
-    margin-bottom: 15px;
-}
-
-.portfolio .col-12 {
-    height: 200px;
-    border: 1px solid blue;
+.navbar-expand-lg .navbar-collapse,
+.navbar-expand-md .navbar-collapse {
+    flex-grow: 0;
 }
