@@ -47,6 +47,29 @@ header {
     max-width: 100%;
 }
 
+.effect {
+    position: relative;
+}
+
+.portfolio .fa-plus {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: white;
+}
+
+.portfolio img:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+.portfolio img:hover + .fa-plus {
+    display: block;
+}
+
 /* sezione about */
 .about {
     background-color: var(--aqua);
