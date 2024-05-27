@@ -69,3 +69,20 @@ header {
     background-color: var(--aqua);
     border-color: var(--aqua);
 }
+
+
+/* FOOTER */
+/* footer superiore */
+.upper-footer {
+    background-color: var(--light-blue);
+}
+
+
+/* footer inferiore */
+.lower-footer {
+    background-color: var(--blue);
+}
+
+.fs-6 {
+    font-size: 0.7rem !important;
+}
