@@ -18,9 +18,7 @@ header {
     flex-grow: 0;
 }
 
-
 /* MAIN */
-
 /* sezione jumbo */
 .jumbo {
     background-color: var(--aqua);
@@ -62,6 +60,10 @@ header {
 /* sezione contact */
 .contact {
     color: var(--blue);
+}
+
+.contact textarea {
+    max-width: 100%;
 }
 
 .contact .btn-outline-light {
