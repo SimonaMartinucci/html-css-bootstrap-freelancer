@@ -54,7 +54,18 @@ header {
     background-color: var(--aqua);
 }
 
-.btn-outline-dark {
+.about .btn-outline-dark {
    color: white;
    border-color: white; 
+}
+
+/* sezione contact */
+.contact {
+    color: var(--blue);
+}
+
+.contact .btn-outline-light {
+    color: white;
+    background-color: var(--aqua);
+    border-color: var(--aqua);
 }
