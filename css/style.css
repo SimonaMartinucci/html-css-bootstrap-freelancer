@@ -48,3 +48,13 @@ header {
 .portfolio img {
     max-width: 100%;
 }
+
+/* sezione about */
+.about {
+    background-color: var(--aqua);
+}
+
+.btn-outline-dark {
+   color: white;
+   border-color: white; 
+}
