@@ -19,9 +19,17 @@ header {
 }
 
 /* MAIN */
+main {
+    overflow-y: auto;
+}
+
 /* sezione jumbo */
 .jumbo {
     background-color: var(--aqua);
+}
+
+.jumbo .container {
+    padding-top: 150px;
 }
 
 .jumbo img {
